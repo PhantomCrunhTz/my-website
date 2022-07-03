@@ -1,0 +1,147 @@
+body{
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  color: #6c7279;
+  margin: 0;
+  background-color: #fff;
+  font-smoothing: antialiased;
+  -webkit-
+
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0
+
+}
+
+*
+*:before,
+*:after{
+box-sizing: border-box;
+
+}
+
+/* Container
+===================== */
+.Container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+
+/* header
+===================== */
+
+.header{
+  height: 98px;
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+
+}
+.heaer_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #505268;
+  padding: 35px 0;
+
+}
+
+
+/* nav
+===================== */
+.nav{
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+}
+.nav_link{
+  color: #fff;
+  text-decoration: none;
+  opacity: .75;
+  transition:opacity .1s linear;
+  margin-left: 50px;
+}
+.nav_link:first-child {
+margin: 0
+}
+.nav_link:hover{
+  text-decoration: underline;
+  opacity: 1;
+}
+
+
+/* intro
+===================== */
+.intro__title__box{
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  height: 750px;
+  background: #2f324d;
+  background:url(img/fon.jpg) no-repeat center /
+  cover;
+
+}
+.intro__title{
+  font-family: 'Open sans',sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+.intro_sub_titile{
+  font-weight: 400;
+  font-family: 'Raleway',sans-serif;
+  font-size: 22px;
+  color: #acadb8;
+  line-height: 1.5;
+  margin-bottom:60px ;
+}
+
+
+/* Button
+===================== */
+.btm{
+  border: 0;
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 40px;
+  border-radius: 2px;
+  cursor: pointer;
+
+
+}
+.btn--red{
+  background-color: #e84444;
+  transition: background-color .1s linear
+
+}
+
+.btn--red:hover{
+  background-color:#ed1c1c;
+}
